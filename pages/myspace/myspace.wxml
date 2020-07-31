@@ -1,0 +1,36 @@
+<!--pages/myspace/myspace.wxml-->
+<view class="bg">
+    <view class="head">
+    <view class="headIcon">
+      <botton bindtap="myInfo">
+      <image class="userinfo-avatar" src="{{imageUrl}}" style="width:70px;height:70px;"></image>
+      </botton>
+    </view>
+    <view class="login">
+      {{showText}}
+    </view>
+</view>
+</view>
+<view class="hr"></view>
+<view class="list">
+<button class="bindPhoneNum" bindtap="toChangeInfo">
+<view class='item'>
+  <view class="title" ><van-icon name="phone" size="20px" />手机绑定</view>
+</view>
+</button>
+
+<view class="line"></view>
+<button class="bindPhoneNum" bindtap="">
+<view class="item">
+  <view class="title"><van-icon name="comment" />意见反馈</view>
+</view>
+</button>
+<view class="line"></view>
+<button class="bindPhoneNum" bindtap="">
+<view class="item">
+  <view class="title"><van-icon name="setting" />设置</view>
+</view>
+</button>
+</view>
+<view class="hr"></view>
+<authBotton></authBotton>

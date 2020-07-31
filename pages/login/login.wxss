@@ -1,0 +1,60 @@
+.page {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  width: 750rpx;
+  height: 1334rpx;
+  overflow: hidden;
+  margin-top: 50rpx;
+}
+.summary {
+  webkit-line-clamp: 3px;
+  position: relative;
+  align-self: center;
+  margin-top: 42rpx;
+  width: 572rpx;
+  height: 204rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 68rpx;
+  color: #1c2833;
+  font-family: SourceHanSansCN-Regular, Source Han Sans CN;
+  font-size: 44rpx;
+  font-weight: 400;
+}
+.bd {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-self: center;
+  flex-direction: row;
+  margin-top:30rpx;
+  border-radius: 42rpx;
+  background-image: linear-gradient(180deg, #DFF0F8 0%, #BCDCEE 100%);
+  box-shadow: 0 4px 8px 0 rgba(4,122,251,0.68);
+  opacity: 0.57;
+  padding-right: 57rpx;
+  padding-left: 73rpx;
+  height: 102rpx;
+}
+.word-1 {
+  line-height: 54rpx;
+  letter-spacing: 3.39rpx;
+  white-space: nowrap;
+  color: #24303B;
+  font-family: SourceHanSansCN-Regular, Source Han Sans CN;
+  font-size: 36rpx;
+  font-weight: 400;
+}
+.main {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 72rpx;
+  margin-left: 2rpx;
+  width: 728rpx;
+  height: 690rpx;
+}

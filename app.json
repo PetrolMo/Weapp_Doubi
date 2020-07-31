@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/myspace/myspace",
+    "pages/userInfo/userInfo",
+    "pages/todo/todo"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#519d9e",
+    "navigationBarTitleText": "多比打卡",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#58c9b9"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "icon":"todo-list-o",
+        "text":"计划"
+      },
+      {
+        "pagePath":"pages/todo/todo",
+        "icon":"todo-list-o",
+        "text":"打卡"
+      },
+      {
+        "pagePath":"pages/myspace/myspace",
+        "icon":"manager-o",
+        "text":"我的"
+
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "van-icon":"@vant/weapp/icon/index",
+    "van-nav-bar": "@vant/weapp/nav-bar/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-calendar": "@vant/weapp/calendar/index"
+  },
+ 
+  "sitemapLocation": "sitemap.json"
+}

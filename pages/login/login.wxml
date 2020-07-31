@@ -1,0 +1,7 @@
+ <view class="page">
+  <text lines="3" class="summary">保持良好的健身习惯，才会有男人喜欢你。一起来打卡健身吧！</text>
+  <image src="cloud://wechatapp-yowre.7765-wechatapp-yowre-1302728721/running.png" class="main"></image>
+    <button class='bd' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="getUserInfo">
+    <text lines="1" class="word-1">授权登录</text>
+  </button>
+</view>

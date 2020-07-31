@@ -1,0 +1,4 @@
+/* custom-tab-bar/index.wxss */
+.van-tabbar-item{
+  font-size: 30rpx !important;
+}

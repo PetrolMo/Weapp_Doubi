@@ -1,0 +1,9 @@
+
+<van-calendar
+  title="日历"
+  poppable="{{ false }}"
+  show-confirm="{{ true }}"
+  class="calendar"
+  color="#07c160"
+  type="range"
+/>
